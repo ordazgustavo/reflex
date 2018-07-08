@@ -1,7 +1,7 @@
 {
   "name": "reflex",
   "version": "1.0.0",
-  "description": "",
+  "description": "JavaScript library to create dynamic UI's",
   "main": "reflex.js",
   "scripts": {
     "build": "webpack --progress --colors",

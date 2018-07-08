@@ -4,7 +4,8 @@ const paragraph = ({ title, children }) => {
   return (
     <Fragment>
       <h3>{title}</h3>
-      <p>{children}</p>
+      <hr />
+      <p style={{ textIndent: '15px' }}>{children}</p>
     </Fragment>
   );
 };

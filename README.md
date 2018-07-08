@@ -4,11 +4,29 @@ Reflex is a JavaScript library based on [Gooact](https://github.com/sweetpalma/g
 
 # Installation & Usage
 
+Download or clone the repo.
+
 Import the package
 
 ```js
 import Reflex from '../reflex';
 ```
+
+Create your custom components in the `./src` folder.
+
+Use:
+
+```
+npm start
+```
+
+To serve the package on localhost
+
+```
+npm run build
+```
+
+To compile "production ready" (disclaimer: you shouldn't actually use this in production 💩)
 
 # What's the diference?
 
@@ -47,3 +65,7 @@ componentWillReceiveProps();
 ```
 
 As this methods are considered **UNSAFE** by React
+
+# License
+
+This package is under MIT License son you can do whatever you want with it.
