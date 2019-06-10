@@ -35,7 +35,7 @@ class App extends Component {
           }}
         >
           <Logo />
-          <h1 style={{ color: '#FFFFFF' }}>Welcome to Reflex</h1>
+          <h1 style={{ color: '#FFFFFF' }}>Welcome to Reflex!</h1>
         </div>
         <div style={{ padding: '15px 25%' }}>
           <Paragraph title="Getting started">

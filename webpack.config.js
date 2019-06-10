@@ -8,7 +8,7 @@ const resolveApp = relativePath => path.resolve(appDirectory, relativePath);
 module.exports = {
   entry: resolveApp('./src/index.js'),
   target: 'web',
-  mode: process.env.WEBPACK_SERVE ? 'development' : 'production',
+  mode: process.env.WEBPACK_DEV_SERVER ? 'development' : 'production',
   devtool: 'source-map',
   output: {
     path: resolveApp('./public'),
@@ -21,5 +21,10 @@ module.exports = {
         loader: 'babel-loader'
       }
     ]
+  },
+  devServer: {
+    contentBase: path.join(__dirname, 'public'),
+    compress: false,
+    port: 9000
   }
 };
